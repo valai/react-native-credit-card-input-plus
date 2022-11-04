@@ -1175,6 +1175,15 @@ deprecated-react-native-prop-types@^2.2.0:
     invariant "*"
     prop-types "*"
 
+deprecated-react-native-prop-types@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/deprecated-react-native-prop-types/-/deprecated-react-native-prop-types-2.3.0.tgz#c10c6ee75ff2b6de94bb127f142b814e6e08d9ab"
+  integrity sha512-pWD0voFtNYxrVqvBMYf5gq3NA2GCpfodS1yNynTPc93AYA/KEMGeWDqqeUB6R2Z9ZofVhks2aeJXiuQqKNpesA==
+  dependencies:
+    "@react-native/normalize-color" "*"
+    invariant "*"
+    prop-types "*"
+
 deprecation@^2.0.0, deprecation@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/deprecation/-/deprecation-2.3.1.tgz"
@@ -2766,10 +2775,11 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-flip-card@^3.4.1:
-  version "3.5.2"
-  resolved "https://registry.npmjs.org/react-native-flip-card/-/react-native-flip-card-3.5.2.tgz"
+"react-native-flip-card@git+https://github.com/valai/react-native-flip-card.git":
+  version "3.5.6"
+  resolved "git+https://github.com/valai/react-native-flip-card.git#86a0ba230e6893d6a032ae4d62f3d6915bcafe0c"
   dependencies:
+    deprecated-react-native-prop-types "^2.3.0"
     prop-types "^15.5.10"
 
 react-proxy@^1.1.7:
